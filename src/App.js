@@ -18,8 +18,8 @@ class App extends react.Component {
 
         <Router>
           <Routes>
-            <Route exact path="/calc" element={<Rate />} />
-            <Route exact path="/" element={<About />} />
+            <Route exact path="react-test/calc" element={<Rate />} />
+            <Route exact path="react-test/" element={<About />} />
           </Routes>
         </Router>
         <Footer />
