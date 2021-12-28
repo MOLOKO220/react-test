@@ -29,8 +29,8 @@ class Header extends React.Component {
               </div>
             </div>
             <nav>
-              <a href="/">Главная</a>
-              <a href="/calc">калькулятор валют</a>
+              <a href="react-test/">Главная</a>
+              <a href="react-test/calc">калькулятор валют</a>
             </nav>
           </div>
         </div>
