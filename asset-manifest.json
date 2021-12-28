@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-test/static/css/main.68156edd.css",
-    "main.js": "/react-test/static/js/main.7847a69f.js",
+    "main.js": "/react-test/static/js/main.fad4f47a.js",
     "static/js/787.51f91e43.chunk.js": "/react-test/static/js/787.51f91e43.chunk.js",
     "static/media/back.svg": "/react-test/static/media/back.61d05e90219bdb4a768a.svg",
     "static/media/Logo.svg": "/react-test/static/media/Logo.4d14e1854e4c8048193a91f225510d9c.svg",
@@ -9,11 +9,11 @@
     "static/media/mark.svg": "/react-test/static/media/mark.515f083cf62a935f9b4101a6ef06ff33.svg",
     "index.html": "/react-test/index.html",
     "main.68156edd.css.map": "/react-test/static/css/main.68156edd.css.map",
-    "main.7847a69f.js.map": "/react-test/static/js/main.7847a69f.js.map",
+    "main.fad4f47a.js.map": "/react-test/static/js/main.fad4f47a.js.map",
     "787.51f91e43.chunk.js.map": "/react-test/static/js/787.51f91e43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68156edd.css",
-    "static/js/main.7847a69f.js"
+    "static/js/main.fad4f47a.js"
   ]
 }
