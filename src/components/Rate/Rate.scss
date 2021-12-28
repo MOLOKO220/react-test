@@ -1,0 +1,63 @@
+.Rate {
+    background: #2f343a;
+    width: 100vw;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h3 {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        width: 100%;
+        max-width: 1100px;
+        text-align: start;
+    }
+    .Rate__wrapp {
+        width: 100%;
+        max-width: 1100px;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+        .Rate__item {
+            width: 220px;
+            height: 180px;
+            border: #c8a35f solid 1px;
+            color: white;
+            padding: 10px;
+            background: #393f47;
+            margin: 15px;
+            > div {
+                width: 180px;
+                text-align: end;
+                font-size: 18px;
+            }
+            .currency-name {
+                font-size: 20px;
+                font-weight: 600;
+                text-align: start;
+            }
+            .currency-in {
+                margin: 30px 0 30px 0;
+            }
+            .currency-out{
+                width: 192px;
+                font-size: 17px !important;
+            }
+        }
+    }
+}
+.warning{
+    color: red;
+    font-weight: 800;
+    font-size: 16px;
+    background: #2f343a;
+    text-align: center;
+}

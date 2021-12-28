@@ -1,0 +1,66 @@
+.Calc {
+    background: #2f343a;
+    min-height: 340px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto;
+    h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        width: 100%;
+        max-width: 1100px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .Calc__wrapp {
+        width: 100%;
+        max-width: 1100px;
+        height: 240px;
+        border: solid 1px #c8a35f;
+        background: #393f47;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        >div{
+            >input{
+                margin-right: 30px;
+                height: 30px;
+                width: 180px;
+                padding: 0 10px;
+                border-radius: 5px;
+                border: solid 1px #c8a35f;
+                background: none;
+                color: white;
+                outline: 0;
+                outline-offset: 0;
+                -webkit-appearance: none;
+                -moz-appearance: textfield;
+            }
+            >select{
+                height: 30px;
+                width: 68px;
+                color: white;
+                border: solid 1px #c8a35f;
+                background: none;
+                border-radius: 5px;
+            }
+            option{
+                background: #393f47;
+            }
+            &:nth-child(2){
+                color: white;
+                >span{
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
